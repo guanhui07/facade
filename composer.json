@@ -14,5 +14,7 @@
             "email": "guanhui07+git@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4.0"
+    }
 }
