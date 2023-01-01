@@ -3,7 +3,6 @@
 
 namespace Guanhui07\Facade;
 
-
 use Exception;
 
 abstract class AbstractFacade
@@ -35,7 +34,8 @@ abstract class AbstractFacade
      * @return string
      * @throws Exception
      */
-    protected static function accessor(){
+    protected static function accessor()
+    {
         throw new Exception(sprintf('Unknow accessor in %s', static::class));
         return '';
     }

@@ -2,19 +2,10 @@
 
 namespace Guanhui07\Facade;
 
-use Interop\Container\ContainerInterface;
-
-class FacadeFactory {
-
-
-    /**
-     * @var ContainerInterface
-     */
+class FacadeFactory
+{
     protected static $container = null;
 
-    /**
-     * @return ContainerInterface
-     */
     public static function getContainer()
     {
         return self::$container;
@@ -23,7 +14,7 @@ class FacadeFactory {
     /**
      * @param  $container
      */
-    public static function setContainer( $container)
+    public static function setContainer($container)
     {
         self::$container = $container;
     }
