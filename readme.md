@@ -2,8 +2,8 @@
 
 ## 用法
 ```php
-$containerfacade = Container::instance();
-FacadeFactory::setContainer($containerfacade);
+$container = Container::instance();
+FacadeFactory::setContainer($container);
 ```
 
 
