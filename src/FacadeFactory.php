@@ -4,6 +4,9 @@ namespace Guanhui07\Facade;
 
 class FacadeFactory
 {
+    /**
+     * @var \DI\Container
+     */
     protected static $container = null;
 
     public static function getContainer()
@@ -12,7 +15,7 @@ class FacadeFactory
     }
 
     /**
-     * @param  $container
+     * @param  $container \DI\Container
      */
     public static function setContainer($container)
     {
