@@ -3,6 +3,7 @@
     "description": "facade",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/guanhui07/facade",
     "autoload": {
         "psr-4": {
             "Guanhui07\\Facade\\": "src/"
