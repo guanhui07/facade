@@ -40,3 +40,6 @@ TestFacade::someMethod();
 $service = TestFacade::instance();
 $service->someMethod();
 ```
+
+
+
