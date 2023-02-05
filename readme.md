@@ -40,13 +40,3 @@ TestFacade::someMethod();
 $service = TestFacade::instance();
 $service->someMethod();
 ```
-
-或者
-```php
-forward_static_call([TestFacade::class, 'someMethod']);
-```
-
-或者
-```php
-call_user_func(sprintf('%s::%s', TestFacade::class, 'someMethod'));
-```
