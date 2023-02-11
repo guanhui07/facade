@@ -1,4 +1,5 @@
-
+## 安装
+`composer require guanhui07/facade`
 
 ## 用法
 ```php
